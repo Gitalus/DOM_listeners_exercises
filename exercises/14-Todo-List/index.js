@@ -12,7 +12,7 @@ function createLiFormatted(text) {
 
     const newLi = document.createElement("li");
     const newSpan = document.createElement("span");
-    const newText = document.createTextNode(text);
+    const newText = document.createTextNode(" " + text);
     
     newSpan.appendChild(newIcon);
     newLi.appendChild(newSpan);
